@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Marian</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/b23b74bd9a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+    <section class="sec-header">
+        <header>
+            <nav>
+                <h1 class="padding-right-1 logo texto-2"> <a class="texto-white" href="/">Sweet Marian</a></h1>
+                <ul>
+                    <li><a href="/productos/index.html"><span> <i class="padding-right-1 fas fa-coffee "></i></span>Productos</a></li>
+                    <li><a href="nosotros.html"><span> <i class="padding-right-1 far fa-address-card "></i></span>Soy Marian</a></li>
+                    <li><a href="#"><span> <i class="padding-right-1 fas fa-phone-volume "></i></span>Contactame</a></li>
+                </ul>
+                <div class="nav-icon ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+
+
+
+
+    <section class="sec-formcontact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center form">
+                <div class="title col-12 col-lg-8 ">
+                    <h2 class="align-center pb-3 texto-3 texto-principal">
+                        Formulario de Contacto <strong><span class="logo-font">Sweet Marian</span> </strong>
+                    </h2>
+                    <h3 class="align-left pb-3 texto-4 texto-secundario">
+                        Ingresá tus datos y tu comentario, en breve nos contactaremos. <br>
+                        <spam class="texto-5 text-danger">*</spam>
+                        <spam class="texto-5">Datos Obligatorios</spam>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center form">
+                <div class="container-form col-lg-10">
+
+                    <form name="form-contact" id="formcontact">
+
+                        <div class="row">
+                            <div class="col-12 col-md-7 col-lg-8 form-group">
+                                <label class="form-control-label texto-5  mt-3 mb-2">Nombre y Apellido <spam class="text-danger">*</spam></label>
+                                <input type="text" name="name" class="form-control texto-4" id="form-contact-name">
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 form-group">
+                                <label class="form-control-label texto-5  mt-3 mb-2">Telefóno<spam class="text-danger">*</spam></label>
+                                <input type="tel" name="phone" class="form-control texto-4" id="form-contact-phone" required>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 form-group">
+                                <label class="form-control-label texto-5  mt-3 mb-2">Email<spam class="text-danger">*</spam></label>
+                                <input type="email" name="email" class="form-control texto-4" id="form-contact-email" required>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 form-group mb-2">
+                                <label class="form-control-label texto-5 mt-4 mb-2">Mensaje<spam class="text-danger">*</spam></label>
+                                <textarea name="message" class="form-control texto-5" id="form-contact-message" placeholder="Contanos tu interes y nos contactaremos para asesorarte." rows="5" required></textarea>
+                            </div>
+
+
+                            <div class="col-12 col-md-12 col-lg-12 text-center ">
+                                <button type="submit " name="submit " class="btn btn-secundario texto-4 " onclick="validar_form()">Enviar</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="sec-footer">
+        <div class="contenedor contenedor-flex-footer">
+            <div class="columnas-3">
+                <div class="centered-box">
+                    <a href="/">
+                        <img src="img/sweet-marian_logo.png" alt="Sweet Marian">
+                    </a>
+                </div>
+            </div>
+
+            <div class="columnas-3">
+                <div class="centered-box">
+                    <a class="texto-2 texto-principal" href="https://www.facebook.com/SweetMarianCupcakes/" target="_blank">
+                        <span class="fab fa-facebook"></span>
+                    </a>
+                    <a class="texto-2 texto-principal" href="https://www.instagram.com/sweetmariansma/" target="_blank">
+                        <span class="fab fa-instagram-square"></span>
+                    </a>
+                    <a class="texto-2 texto-principal" href="tel:+542944111111" target="_blank">
+                        <span class="fas fa-phone-volume"></span>
+                    </a>
+                    <a class="texto-2 texto-principal" href="mailto:info@sweetmarian.com.ar" target="_blank">
+                        <span class="fas fa-envelope"></span>
+                    </a>
+                    <a class="texto-2 texto-principal" href="http://wa.me/542944111111" target="_blank">
+                        <span class="fab fa-whatsapp-square"></span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="columnas-3">
+                <div class="centered-box">
+                    <p class="texto-5">
+
+                        <a class="texto-secundario" href="/productos/index.html" class="text-black">Productos</a> &nbsp;&nbsp;&nbsp;
+                        <a class="texto-secundario" href="nosotros.html" class="text-black">Soy Marian</a> &nbsp;&nbsp;&nbsp;
+                        <a class="texto-secundario" href="#" class="text-black">Contactame</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-latest.js "></script>
+    <SCript src="js/script.js "></SCript>
+
+
+
+</body>
+
+</html>
